@@ -1,0 +1,5 @@
+col=input("Enter the colors: ")
+color=col.split(',')
+print(color)
+print("First color is",color[0])
+print("Last color is ",color[-1])
